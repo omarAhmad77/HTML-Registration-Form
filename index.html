@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <body>
+            <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="styles.css">
+            <h1 id="title">HTML Course Registration Form</h1>
+            <p id="description">Register for a free professional HTML certificate!</p>
+            <form id="survey-form">
+                <div class="form-container">
+                    <label id="name-label">Full Name</label>
+                    <input class="formone"id="name" type="text" name="name" required placeholder="Enter your full name">
+                </div>
+                <div class="form-container">
+                    <label id="email-label">Email</label>
+                    <input class="formtwo" id="email" type="email" name="email" required placeholder="Enter your email">
+                </div>
+                <div class="form-container">
+                    <label id="number-label">Phone Number (Optional)</label>
+                    <input class="formthree" id="number" type="number" min="0" max="9999999999" pattern="[0-9]*" title="Please Enter Valid Numbers Only" placeholder="Enter your phone number">
+                </div>
+                <div class="form-container">
+                    <label id="age">Age (Optional)</label>
+                    <input class="formfour" id="age" type="number" min="0" max="100" placeholder="Enter your age">
+                </div>
+                <hr class="divider">
+                <div class="dropdown">
+                    <label for="dropdown" class="dropdownlabel">Why do you want to learn HTML?</label>
+                    <select id="dropdown">
+                        <option value="fun">For fun</option>
+                        <option value="job">To get a job</option>
+                        <option value="website">To design websites</option>
+                    </select>
+                </div>
+                <hr class="divider">
+                <div class="radio-buttons">
+                    <p>How do you like to learn best?</p>
+                    <label><input type="radio" name="learning-method" value="remotely">Remotely</label>
+                    <label><input type="radio" name="learning-method" value="in-person">In-Person</label>
+                    <label><input type="radio" name="learning-method" value="no-preference">No Preference</label>
+                </div>
+                <hr class="divider">
+                <div class="checkboxes">
+                    <p>Do you have any prior coding experiences? Check All That Apply.</p>
+                    <label><input type="checkbox" name="experience" value="html">HTML</label>
+                    <label><input type="checkbox" name="experience" value="css">CSS</label>
+                    <label><input type="checkbox" name="experience" value="c++">C++</label>
+                    <label><input type="checkbox" name="experience" value="c">C</label>
+                    <label><input type="checkbox" name="experience" value="python">Python</label>
+                    <label><input type="checkbox" name="experience" value="java">JavaScript</label>
+                    <label><input type="checkbox" name="experience" value="sql">SQL</label>
+                    <label><input type="checkbox" name="experience" value="r">R</label>
+                </div>
+                <hr class="divider">
+                <div class="textarea">
+                    <label for="comments">Additional Comments or Information:</label>
+                    <textarea id="comments" name="comments" rows="5" cols="50"></textarea>
+                </div>
+                <div class="submit-button">
+                    <button type="submit" id="submit">Submit Registration Form</button>
+                </div>
+                <hr class="divider">
+            </form>
+            <h3 class="contact">Contact Me!</h3>
+            <p class="contact-info">omar_darwish1@baylor.edu</p>
+            <p class="contact-info">(909-758-2576)</p>
+            <p>Check out my <a href="https://www.linkedin.com/in/omar-darwish-837a24268/" target="blank">LinkedIn!</a></p>
+            </body>
+    </head>
+</html>

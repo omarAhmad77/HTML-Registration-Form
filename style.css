@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.formone {
+    width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.formtwo {
+    width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.formthree {
+    width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.formfour {
+    width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.form-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container input {
+    width: 80%;
+    margin: 10px 0;
+}
+.form-container label {
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    background-color: aquamarine;
+    padding: 2px;
+    font-size: smaller;
+}
+select {
+    margin: 20px;
+}
+.checkboxes label {
+    display: block;
+    margin-bottom: 5px;
+}
+.divider {
+    border: none;
+    height: 5px;
+    background-color: black;
+    margin: 20px 0;
+}
+.submit-button {
+    text-align: center;
+}
+body {
+    background-color: aquamarine;
+}
